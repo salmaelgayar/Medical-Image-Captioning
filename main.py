@@ -1,9 +1,3 @@
-
-
-
-
-
-
 def function generate_caption(image, tokenizer, max_length, cnn_model,transformer_model):
   # Preprocess the image
  preprocessed_image = preprocess_image(image)
